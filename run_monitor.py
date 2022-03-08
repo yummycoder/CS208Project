@@ -1,4 +1,4 @@
-from hpbandster import Monitor
+import hpbandster.core.monitor as hpm
 
-monitor = Monitor()
+monitor = hpm.Monitor()
 monitor.start()
