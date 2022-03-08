@@ -19,7 +19,7 @@ x.field_names = ["runId", "min_budget", "max_budget", "worker"]
 while data:  # receive response
     data = sockFile.readline()
     run = data.split('!')
-    if len(run) is not 4:
+    if len(run) != 4:
         break
     x.add_row([run[0], run[1], run[2], run[3]])
 
