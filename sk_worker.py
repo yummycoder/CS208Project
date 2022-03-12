@@ -15,7 +15,7 @@ from hpbandster.core.worker import Worker
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
-class skWorker(Worker):
+class MyWorker(Worker):
     def __init__(self, **kwargs):
             super().__init__(**kwargs)
 
