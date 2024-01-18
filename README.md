@@ -19,3 +19,4 @@ run hpb-cluster.py on a server as the master
 run hpb-cluster.py on other server as the worker 
 `python3 hpb-cluster.py  --run_id $run_id --nic_name $ethId(e.g. eno1d1)  --shared_directory $your_NFSdic --worker`
 
+# example
